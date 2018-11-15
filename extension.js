@@ -1,7 +1,7 @@
 let vscode = require('vscode');
 const helpers = require('./helpers');
 
-const pythonTerminalName = 'IPython';
+const pythonTerminalName = 'python3.6';
 let pythonTerminal = null;
 let textQueue = [];
 let waitsQueue = [];
